@@ -7,7 +7,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 function Footer() {
     return <div className="footer">
-        <a className="contact" href="http://" target="_blank" rel="noopener noreferrer">CONTACT US</a>
+        <a className="contact" href="/contact" >CONTACT US</a>
         <div className="social-links-container">
             <a className="social" href="http://" target="_blank" rel="noopener noreferrer"><FacebookIcon /></a>
             <a className="social" href="http://" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>

@@ -1,5 +1,6 @@
 import React from "react";
 import './Navbar.css';
+import Cart from "./Cart";
 import { useEffect } from 'react'
 
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
         let navLink = document.querySelectorAll(".nav-links");
         let loginLink = document.querySelector(".login-section");
 
-        if (window.scrollY > 200) {
+        if (window.scrollY > 50) {
             navBar.classList.add("nav-left");
             logo.classList.add("nav-logo-left");
             navLink[0].classList.add("nav-links-left")
@@ -40,10 +41,11 @@ function Navbar() {
         <button className="nav-links" src="/mens" >MENS</button>
         <button className="nav-links" src="/ladies" >LADIES</button>
         <div className="login-section">
-            <p className="nav-login" >Sign Up</p>
-            <p className="nav-login" >Login</p>
+            <a className="nav-login" href="/login" >Sign Up / login</a>
+            <Cart />
         </div>
     </div>
+
 }
 
 export default Navbar;

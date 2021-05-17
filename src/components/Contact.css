@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
+
+.contact-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contact-heading {
+    margin-bottom: 70px;
+}
+
+input {
+    margin-bottom: 25px;
+}
+
+select {
+    outline: none;
+    font-family: 'Orbitron', sans-serif;
+    height: 35px;
+    margin-bottom: 25px;
+    color: gray;
+    padding-left: 10px;
+}
+
+textarea {
+    padding: 15px 15px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+    border: 1px solid gray;
+    font-family: 'Orbitron', sans-serif;
+}

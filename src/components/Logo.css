@@ -1,0 +1,13 @@
+body {
+    margin-top: 0px;
+}
+
+.logo {
+    
+    font-size: 10vw;
+    color: #ffffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(53, 53, 53);
+   
+}
+

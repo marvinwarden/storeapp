@@ -4,8 +4,8 @@ import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
 
 function Cart() {
     return <div class="cart">
-        <LocalMallOutlinedIcon />
-        <p className="cart-heading">Cart</p>
+
+        <a href="#blank" className="cart-heading"><LocalMallOutlinedIcon className="cart-icon" /> Cart</a>
     </div>
 }
 

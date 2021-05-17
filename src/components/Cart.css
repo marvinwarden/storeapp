@@ -11,5 +11,15 @@
 }
 
 .cart-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.cart-icon {
+    margin: 0 10px;
 }
