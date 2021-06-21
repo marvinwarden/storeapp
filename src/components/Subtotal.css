@@ -1,0 +1,14 @@
+.subtotal {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    background: rgb(226, 226, 226);
+    padding: 25px;
+    
+}
+
+.subtotal-heading {
+    margin-bottom: 3%;
+}

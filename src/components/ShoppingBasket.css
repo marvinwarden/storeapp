@@ -1,0 +1,30 @@
+.shopping-basket {
+    margin-top: 250px;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.basket-heading {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    
+    
+}
+
+.basket-section {
+    width: 60%;
+    
+}
+
+.subtotal-section {
+    width: 30%;
+    padding-top: 25px;
+    margin-right: 25px;
+}
+

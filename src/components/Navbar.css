@@ -1,39 +1,18 @@
 .nav-container {
     position: fixed;
     top: 0;
-    margin-top: 0;
-    height: 320px;
+    height: 200px;
     width: 100%;
-    background-color:  rgba(255, 255, 255, 0);
-    z-index: 1;
-    transition: 1s;
-    
-}
-
-.nav-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    height: 320px;
-    width: 10%;
-    background-color: rgba(255, 255, 255, 0);
-    transition: 1s;
+    background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 1px #d6d6d6;
 }
 
 .nav-logo {
     margin: 0 30px;
-    font-size: 10vw;
+    font-size: 5vw;
     color: #ffffff;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(53, 53, 53);
-    transition: 1s;
-}
-
-.nav-logo-left {
-    font-size: 30px;
-    margin-top: 20px;
     transition: 1s;
 }
 
@@ -56,23 +35,8 @@
     
 }
 
-.nav-links-left {
-    
-    font-size: 20px;
-    margin: 10px 0;
-    border: 2px solid rgb(53, 53, 53);
-    height: 35px;
-    width: 100px;
-    vertical-align: middle;
-    transition: 1s;
-}
-
-.nav-links-left:hover {
-    border: 2px solid rgb(161, 159, 159);
-    
-}
 .login-section {
-    position: absolute;
+    position: fixed;
     top: 12px;
     right: 110px;
     display: flex;
@@ -83,11 +47,9 @@
 }
 
 .login-left {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    right: 0;
-    transition: 1s;
+    position: fixed;
+   
+    top: 10px;
 }
 
 

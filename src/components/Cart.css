@@ -1,3 +1,5 @@
+
+
 .cart {
     position: fixed;
     right: 25px;
@@ -6,8 +8,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    z-index: 1;
-    
 }
 
 .cart-heading {
@@ -22,4 +22,16 @@
 
 .cart-icon {
     margin: 0 10px;
+}
+
+.item-count {
+    position: fixed;
+    right: 78px;
+    top: 13px;
+    border-radius: 100%;
+    background-color: red;
+    color: seashell;
+    width: 15px;
+    font-size: 12px;
+    z-index: 1;
 }

@@ -1,0 +1,57 @@
+
+
+.basket-container {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    margin: 0 auto 0;
+    padding: 25px;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px gray;
+    
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    
+    text-align: left;
+    width: 100%;
+    
+    padding: 20px;
+}
+
+.item-info {
+    margin-left: 50px;
+    
+}
+
+.quantity-input {
+    height: 25px;
+    margin-top: 25px;
+}
+
+.checkout-item-img {
+    width: 40%;
+}
+
+img {
+    height: 200px;
+}
+
+.remove-item-btn {
+    margin-top: 25px;
+    height: 25px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(158, 50, 50);
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    color: #ffffff;
+}
+
+
+
+
+
+

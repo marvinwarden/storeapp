@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Logo() {
     return <div className="logo-container">
-        <Link to="/">
+        <Link to="/" style={{ textDecoration: 'none' }}>
             <h1 className="logo">MMF</h1>
         </Link>
     </div>
