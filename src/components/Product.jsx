@@ -20,10 +20,6 @@ function Product(props) {
         });
     };
 
-
-
-
-
     return <div className="product-container">
         <div className="product">
             <div className="product-card">

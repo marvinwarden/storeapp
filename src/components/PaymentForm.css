@@ -22,7 +22,9 @@
     
 }
 
-
+.expiry, .cvv {
+    width: 100px;
+}
 
 .payment-input {
     margin-top: 10px;
@@ -44,4 +46,50 @@
 
 .to-checkout:hover {
     background: rgb(255, 69, 69);
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .payments {
+        width: 85%;
+        margin-left: 25px;
+    }
+
+    .card-center {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .card-expiration, .card-cvv {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .payment-input, .card-type {
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .card-center {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .card-expiration, .card-cvv {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .payments {
+        width: 85%;
+        margin-left: 0;
+        
+    }
+    
 }

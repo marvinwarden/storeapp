@@ -12,3 +12,26 @@
 .subtotal-heading {
     margin-bottom: 3%;
 }
+
+@media screen and (max-width: 1200px) {
+    .subtotal {
+    
+        margin-left: 25px;
+        width: 85%;
+        
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .subtotal {
+       
+        margin-left: 0;
+        width: 85%;
+        
+        
+    }
+}
+
+
+

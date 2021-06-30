@@ -15,7 +15,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 5px;
     text-decoration: none;
     color: black;
 }
@@ -34,4 +34,14 @@
     width: 15px;
     font-size: 12px;
     z-index: 1;
+}
+
+@media screen and (max-width: 500px) {
+    .cart {
+        font-size: 10px;
+    }
+    
+    .cart-icon {
+        height: 1px;
+    }
 }

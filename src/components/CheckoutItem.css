@@ -50,6 +50,71 @@ img {
     color: #ffffff;
 }
 
+@media screen and (max-width: 550px) {
+    img {
+        height: 70px;
+    }
+
+    .item-container {
+        display: flex;
+        flex-direction: row;
+        
+        text-align: left;
+        width: 100%;
+        
+        padding: 10px;
+    }
+
+    .item-info {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+
+    .remove-item-btn {
+        height: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .quantity-input {
+        height: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    img {
+        height: 70px;
+    }
+
+    .item-container {
+        display: flex;
+        flex-direction: row;
+        
+        text-align: left;
+        width: 100%;
+        
+        padding: 10px;
+    }
+
+    .item-info {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+
+    .remove-item-btn {
+        height: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .quantity-input {
+        height: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
 
 
 

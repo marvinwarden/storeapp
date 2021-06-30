@@ -15,7 +15,6 @@ function App() {
     return <div>
         <Switch>
             <Route path="/login">
-                <Cart />
                 <Logo />
                 <Login />
                 <Footer />

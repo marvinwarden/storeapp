@@ -28,3 +28,58 @@
     margin-right: 25px;
 }
 
+
+@media screen and (max-width: 1200px) {
+
+    
+    .basket-section {
+        width: 55%;
+        margin-left: 15px;
+        
+    }
+
+    .subtotal-section {
+        
+        margin-right: 25px;
+        width: 40%;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .shopping-basket {
+        
+        margin-top: 130px;
+    }
+
+    .basket-heading {
+        position: absolute;
+        left: 15px;
+        top: 150px;
+        font-size: 2vh;
+        
+        
+    }
+    
+    .basket {
+      
+        flex-direction: column;
+       
+    }
+
+    .basket-section {
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .subtotal-section {
+        padding-top: 25px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .shopping-basket {
+        align-items: center;
+    }
+}

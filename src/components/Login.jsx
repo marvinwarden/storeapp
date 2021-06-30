@@ -14,7 +14,7 @@ function Login() {
             <a className="forgot-password" href="#blank">forgot your password?</a>
             <p>or</p>
             <form action="#" method="POST">
-                <button type="submit" className="login-button fb-btn"><FacebookIcon className="fb-icon" /> SIGN IN WITH FACEBOOK</button>
+                <button type="submit" className="login-button fb-btn"><span className="fb-btn-text"><FacebookIcon className="fb-icon"  /> SIGN IN WITH FACEBOOK </span></button>
             </form>
         </div>
         <div className="login">

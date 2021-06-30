@@ -13,7 +13,7 @@ function PaymentForm() {
         setCardNumber(cardNumberValue);
         if (cardNumberValue.length === 4 || cardNumberValue.length === 9 || cardNumberValue.length === 14) {
             setCardNumber(cardNumberValue += " ");
-        }
+        } 
     }
 
     function cardHolder(e) {
@@ -61,7 +61,7 @@ function PaymentForm() {
                 <div className="card-expiration">
                     <label>EXPIRATION DATE</label>
                     <input
-                        className="payment-input"
+                        className="payment-input expiry"
                         type="text"
                         name="expiration"
                         placeholder="MM/YY"
@@ -72,7 +72,7 @@ function PaymentForm() {
                 <div className="card-cvv">
                     <label>CVV CODE</label>
                     <input
-                        className="payment-input"
+                        className="payment-input cvv"
                         type="text"
                         name="cvv-code"
                         placeholder="CVC"

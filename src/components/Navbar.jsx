@@ -10,8 +10,8 @@ function Navbar() {
         <button className="nav-links" src="/mens" >MENS</button>
         <button className="nav-links" src="/ladies" >LADIES</button>
         <div className="login-left">
-            <a className="nav-login" href="/login" >Sign Up / login</a>
-
+            <a className="nav-login" href="/login" >Sign Up</a>
+            <a className="nav-login" href="/login" >Login</a>
         </div>
     </div>
 

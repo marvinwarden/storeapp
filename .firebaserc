@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "clothingstoreapp",
+    "mmf-store": "mmfstore-4eb99",
+    "onlinestore": "mmfstore-4eb99"
+  }
+}
