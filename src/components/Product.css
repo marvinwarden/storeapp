@@ -4,7 +4,8 @@
     padding: 20px;
     border: 2px solid rgb(53, 53, 53);
     width: 275px;
-    margin: 20px 25px 30px;
+    margin: 20px 20px 30px;
+    
    
 }
 
@@ -16,6 +17,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 13px;
+    
 }
 
 .product-price {

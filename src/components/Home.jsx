@@ -7,7 +7,7 @@ function Home() {
     return <div className="home">
         <div className="product-row">
             {Products.map(product => {
-                return <Product image={product.img} title={product.item} price={product.price} key={product.id} />
+                return <Product image={product.img} title={product.item} price={product.price} key={product.id} id={product.id} quantity={product.qty}/>
             })}
         </div>
     </div>

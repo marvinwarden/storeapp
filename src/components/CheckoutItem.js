@@ -3,19 +3,21 @@ import "./CheckoutItem.css";
 
 
 
-function CheckoutItem({ image, price, title }) {
+function CheckoutItem({ image, price, title, quantity, click, id, }) {
 
-    let itemCount = [];
+    
+    const [itemPrice, setItemPrice] = useState(price * quantity);
+    const [itemQuantity, setItemQuantity] = useState(quantity);
 
-    for (let i = 1; i <= 10; i++) {
-        itemCount.push(i);
+    
+    
+    function itemPriceSum(e) {
+        setItemQuantity(e.target.value);
+        setItemPrice(price * e.target.value)
+        
+        
     }
 
-    const [itemQuantity, setItemQuantitiy] = useState(price);
-
-    function itemQuantitySum(e) {
-        setItemQuantitiy(e.target.value * price)
-    }
 
     return (<div className="basket-container">
         <div className="item-container">
@@ -24,15 +26,10 @@ function CheckoutItem({ image, price, title }) {
                 <img src={image} alt="test"></img>
             </div>
             <div className="item-info">
-                <h3>{title}</h3>
-                <label>Quantity </label>
-                <select className="quantity-input" onChange={itemQuantitySum}>
-                    {itemCount.map(item => {
-                        return <option >{item}</option>
-                    })}
-                </select>
-                <p class="price" value={itemQuantity}>{itemQuantity}</p>
-                <button className="remove-item-btn" >Remove item</button>
+                <h3>{title}</h3>    
+                Quantity: <input onChange={itemPriceSum} value={itemQuantity} className="quantity-input"/>
+                    <p class="price" >{"R" + itemPrice.toFixed(2)}</p>
+                <button onClick={(e) => click(id, quantity)} className="remove-item-btn" >Remove item</button>
             </div>
 
         </div>

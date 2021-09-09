@@ -29,6 +29,7 @@
 .quantity-input {
     height: 25px;
     margin-top: 25px;
+    width: 50px;
 }
 
 .checkout-item-img {
@@ -48,6 +49,10 @@ img {
     border: none;
     box-shadow: 2px 2px 2px gray;
     color: #ffffff;
+}
+
+.remove-item-btn:hover {
+    background: rgb(255, 69, 69);
 }
 
 @media screen and (max-width: 550px) {

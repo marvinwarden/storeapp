@@ -1,0 +1,44 @@
+.address-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    background: rgb(226, 226, 226);
+    padding: 25px;
+        
+}
+
+.address-heading {
+    margin-bottom: 25px;
+}
+
+.address-form {
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .address-container  {
+    
+        margin-left: 25px;
+        width: 85%;
+        
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .address-container  {
+       
+        margin-left: 0;
+        width: 85%;
+        
+        
+    }
+}
+
+
+
